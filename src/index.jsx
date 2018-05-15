@@ -1,10 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import App from './components/App';
 
 ReactDOM.render(
-  <div>
-    <h4>Karla Buckner</h4>
-    <p>@Karlambuckner</p>
-  </div>,
+  <App/>,
   document.getElementById('react-app-root')
 );
